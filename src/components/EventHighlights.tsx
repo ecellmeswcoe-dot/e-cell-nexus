@@ -5,7 +5,7 @@ const highlights = [
   {
     icon: Trophy,
     title: "Prize Pool",
-    value: "₹25,000+",
+    value: "₹20,000+",
     description: "& Exciting Gifts",
     color: "primary",
   },

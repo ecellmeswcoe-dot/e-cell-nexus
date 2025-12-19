@@ -62,7 +62,7 @@ const Hero = () => {
         {/* Stats */}
         <div className="flex flex-wrap justify-center gap-8 mt-8 animate-fade-in-up" style={{ animationDelay: "1s" }}>
           <div className="text-center">
-            <p className="font-mono text-3xl md:text-4xl font-bold text-primary glow-text">₹25,000+</p>
+            <p className="font-mono text-3xl md:text-4xl font-bold text-primary glow-text">₹20,000+</p>
             <p className="text-sm text-muted-foreground">Prize Pool</p>
           </div>
           <div className="text-center">

@@ -43,7 +43,7 @@ const Footer = () => {
           {/* Credit */}
           <div className="text-center">
             <p className="text-sm text-muted-foreground">
-              Website developed by <span className="text-primary font-mono">Admin</span>
+              Website developed by <a href="https://instagram.com/harshad.h.pakhale.01" target="_blank" rel="noopener noreferrer" className="text-primary font-mono hover:text-primary/80 transition-colors">@harshad.h.pakhale.01</a>
             </p>
           </div>
 
