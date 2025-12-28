@@ -96,12 +96,30 @@ const Registration = () => {
             />
           </div>
 
-          {/* Note */}
-          <div className="mt-6 text-center">
-            <p className="glass-card inline-block px-6 py-3 rounded-xl text-sm text-muted-foreground border border-primary/20">
-              <span className="text-primary font-mono">{">"}</span> Each team will receive a unique{" "}
-              <span className="text-secondary font-semibold">Team ID</span> after submission.
-            </p>
+          {/* Event Details */}
+          <div className="mt-6 space-y-3">
+            <div className="flex flex-wrap justify-center gap-3">
+              <p className="glass-card inline-block px-4 py-2 rounded-xl text-sm text-muted-foreground border border-primary/20">
+                <span className="text-primary font-mono">📍</span>{" "}
+                <span className="text-secondary font-semibold">Venue:</span> MESWCOE 2nd Floor
+              </p>
+              <p className="glass-card inline-block px-4 py-2 rounded-xl text-sm text-muted-foreground border border-primary/20">
+                <span className="text-primary font-mono">🕐</span>{" "}
+                <span className="text-secondary font-semibold">Reporting:</span> 1:30 PM onwards
+              </p>
+            </div>
+            <div className="flex flex-wrap justify-center gap-3">
+              <p className="glass-card inline-block px-4 py-2 rounded-xl text-sm text-muted-foreground border border-destructive/30">
+                <span className="text-destructive font-mono">⚠️</span>{" "}
+                <span className="text-destructive font-semibold">College ID is Compulsory</span>
+              </p>
+            </div>
+            <div className="text-center">
+              <p className="glass-card inline-block px-4 py-2 rounded-xl text-sm text-muted-foreground border border-primary/20">
+                <span className="text-primary font-mono">{">"}</span> Each team will receive a unique{" "}
+                <span className="text-secondary font-semibold">Team ID</span> after submission.
+              </p>
+            </div>
           </div>
         </div>
       </div>
