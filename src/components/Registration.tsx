@@ -70,7 +70,8 @@ const Registration = () => {
           <div className="text-center">
             <p className="glass-card inline-block px-4 py-2 rounded-xl text-sm text-muted-foreground border border-primary/20">
               <span className="text-primary font-mono">{">"}</span> Each team will receive a unique{" "}
-              <span className="text-secondary font-semibold">Team ID</span> after submission.
+              <span className="text-secondary font-semibold">Team ID</span> after submission. If not received, contact{" "}
+              <a href="tel:7666963938" className="text-primary font-semibold hover:underline">7666963938</a> to get your ID.
             </p>
           </div>
         </div>
