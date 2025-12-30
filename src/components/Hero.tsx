@@ -1,13 +1,6 @@
 import ecellLogo from "@/assets/ecell-logo.png";
 
 const Hero = () => {
-  const scrollToRegister = () => {
-    const element = document.getElementById("register");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center px-4 py-20 overflow-hidden">
       {/* Gradient Orbs */}
@@ -25,9 +18,9 @@ const Hero = () => {
         </div>
 
         {/* Event Badge */}
-        <div className="glass-card px-6 py-2 border border-primary/30 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-          <span className="font-mono text-sm text-primary uppercase tracking-wider">
-            E-Cell MESWCOE Presents
+        <div className="glass-card px-6 py-2 border border-secondary/50 animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
+          <span className="font-mono text-sm text-secondary uppercase tracking-wider">
+            ✨ Event Completed Successfully ✨
           </span>
         </div>
 
@@ -43,21 +36,23 @@ const Hero = () => {
 
         {/* Tagline */}
         <p className="text-xl md:text-2xl text-muted-foreground font-light max-w-2xl animate-fade-in-up" style={{ animationDelay: "0.6s" }}>
-          <span className="text-secondary font-semibold">Don't Miss Out!</span> Unleash Your Innovation.
+          <span className="text-secondary font-semibold">Thank You!</span> For Being Part of Innovation.
         </p>
 
         {/* CTA Button */}
-        <button 
-          onClick={scrollToRegister}
+        <a 
+          href="https://www.instagram.com/p/DS2poETkzTT/?img_index=1&igsh=MXFvaHIyd2phb2FkcQ=="
+          target="_blank"
+          rel="noopener noreferrer"
           className="group relative mt-4 animate-fade-in-up"
           style={{ animationDelay: "0.8s" }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-primary via-secondary to-primary rounded-xl blur-lg opacity-70 group-hover:opacity-100 transition-opacity animate-pulse-glow" />
           <div className="relative px-10 py-4 bg-gradient-to-r from-primary to-secondary rounded-xl font-mono font-bold text-lg text-primary-foreground flex items-center gap-3 transform transition-transform group-hover:scale-105">
-            Register Now
-            <span className="text-2xl group-hover:translate-x-1 transition-transform">🚀</span>
+            View Gallery
+            <span className="text-2xl group-hover:translate-x-1 transition-transform">📸</span>
           </div>
-        </button>
+        </a>
 
         {/* Stats */}
         <div className="flex flex-wrap justify-center gap-8 mt-8 animate-fade-in-up" style={{ animationDelay: "1s" }}>
